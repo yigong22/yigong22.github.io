@@ -1,0 +1,226 @@
+
+*
+{
+  box-sizing: border-box;
+}
+
+
+
+
+/* Start here */
+
+.navbar
+{ width: 100vw;
+  height:50px;
+  position: fixed;
+  top: 0px;
+  left:0px;
+  background-color: white;
+  box-shadow: 3px 3px 4px #737373;
+  z-index: 100;
+}
+
+.title
+{
+  font-family: Century gothic, sans-serif;
+  font-size:30px;
+  position: fixed;
+  top: 5px;
+  left: 20px;
+
+}
+
+.cart
+{
+  font-family: Century gothic, sans-serif;
+  font-size:15px;
+  position: fixed;
+  top: 20px;
+  right: 10%;
+
+}
+
+.socialmediaicons img
+{
+  max-width: 20px;
+
+}
+
+.socialmediaicons
+{
+  position: fixed;
+  top: 18px;
+  right:3%;
+
+}
+
+
+
+/*imageshow star*/
+
+
+
+
+.poster
+{
+  width: 100vw;
+  height: 90vh;
+  background-color:rgb(37, 179, 162);
+  position: absolute;
+  top:50px;
+  left: 0px;
+
+}
+
+
+
+/*examples start*/
+
+
+
+.example
+{
+  width: 100vw;
+  height: 36vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  top:91vh;
+  background-color: rgb(65, 185, 102);
+
+}
+
+
+.plate
+{
+  flex: 0 0 33.333%;
+  margin-right: 5px;
+}
+
+.fabric
+{
+  flex: 0 0 33.333%;
+  margin-right: 5px;
+}
+
+.paper
+{
+  flex: 0 0 33.333%;
+}
+
+/*intro*/
+
+.intro img
+{
+  max-width: 45%;
+}
+
+.intro
+{
+  width: 100vw;
+  height: 26vh;
+  background-color: #d6d6d6;
+  position: absolute;
+  top:134vh;
+  margin-bottom: 1vh;
+  font-family: century gothic, sans-serif;
+  font-size: 1.1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.design
+{
+  flex:0 0 20%
+}
+
+.upload
+{
+  flex:0 0 20%
+}
+
+.choose
+{
+  flex:0 0 20%
+}
+
+.measurement
+{
+  flex:0 0 20%
+}
+
+.delivery
+{
+  flex:0 0 20%
+}
+
+/*information section*/
+
+.infor
+{
+  width: 100vw;
+  height: 15vh;
+  position: absolute;
+  top:161vh;
+  font-family: century gothic, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  text-align: left;
+  margin-bottom: 7%;
+  padding-left:5%;
+}
+
+.title1
+{
+  font-size:1em;
+}
+.subtitle
+{
+  font-size: 0.6em;
+  color:rgba(0, 0, 0, 0.65);
+}
+
+
+
+.shop
+{
+  flex:0 0 25%
+}
+
+.template
+{
+    flex:0 0 25%
+}
+
+.newsletter
+{
+    flex:0 0 25%
+
+}
+
+.address
+{
+    flex:0 0 25%
+}
+
+.email
+{ width: 62%;
+  font-family: century gothic ,sans-serif;
+  font-size: 0.6em;
+  color:rgba(0, 0, 0, 0.5 );
+}
+
+
+
+
+
+
+
+/*Css*/
