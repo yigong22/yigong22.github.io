@@ -22,7 +22,7 @@
 
 .title
 {
-  font-family: Century gothic, sans-serif;
+  font-family: quicksand, sans-serif;
   font-size:30px;
   position: fixed;
   top: 5px;
@@ -32,7 +32,7 @@
 
 .cart
 {
-  font-family: Century gothic, sans-serif;
+  font-family: quicksand, sans-serif;
   font-size:15px;
   position: fixed;
   top: 20px;
@@ -55,60 +55,96 @@
 }
 
 
+/*body css*/
 
-/*imageshow star*/
-
-
-
-
-.poster
-{
-  width: 100vw;
-  height: 85vh;
-  background-color:rgb(37, 179, 162);
-  position: absolute;
-  top:50px;
-  left:0px;
-
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 
 
-/*examples start*/
+
+
+.container
+{
+  position: absolute;
+  top:5vh;
+  left:0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 0.5vh;
+}
+
+.poster{
+ flex:0 0 100%;
+}
+
+
+
+.containerpicture
+{
+  max-width:100%;
+}
+
+.posterinfor
+{
+  font-family: quicksand, sans-serif;
+  font-weight: lighter;
+  font-size: 160%;
+  color: white;
+  position: absolute;
+  top:40vh;
+  right: 10vw;
+  text-align: center;
+  line-height: 130%;
+
+}
+
+.shopicon{
+  max-width: 40%;
+}
 
 
 
 .example
 {
-  width: 100vw;
-  height: 36vh;
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  position: relative;
-  top:85.5vh;
-  background-color: rgb(65, 185, 102);
-
+  align-items: flex-start;
+  justify-content: space-around;
+  position: absolute;
+  top: 80vh;
 }
 
-
-.plate
+.porcelain
 {
-  flex: 0 0 33.333%;
-  margin-right: 5px;
+  flex:0 0 33.333%;
 }
 
 .fabric
 {
-  flex: 0 0 33.333%;
-  margin-right: 5px;
+  flex:0 0 33.333%;
 }
 
 .paper
 {
-  flex: 0 0 33.333%;
+  flex:0 0 33.333%;
 }
+
+.example img
+{
+  max-width: 100%;
+}
+
+
+
+
+
+
+
 
 /*intro*/
 
@@ -121,43 +157,51 @@
 {
   width: 100vw;
   height: 26vh;
-  background-color: #d6d6d6;
+  background-color: #a71a2a;
   position: absolute;
-  top:127.6vh;
+  top:150vh;
   margin-bottom: 1vh;
-  font-family: century gothic, sans-serif;
-  font-size: 1.1em;
+  font-family: quicksand, sans-serif;
+  font-size: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  padding:2%;
 }
 
-.design
+.generate
 {
-  flex:0 0 20%
+  flex:0 0 15%;
 }
 
 .upload
 {
-  flex:0 0 20%
+  flex:0 0 15%;
 }
 
 .choose
 {
-  flex:0 0 20%
+  flex:0 0 15%;
 }
 
-.measurement
+.setup
 {
-  flex:0 0 20%
+  flex:0 0 15%;
 }
 
 .delivery
 {
-  flex:0 0 20%
+  flex:0 0 15%;
 }
+
+
+.processicon
+{
+
+}
+
 
 /*information section*/
 
@@ -166,8 +210,8 @@
   width: 100vw;
   height: 15vh;
   position: absolute;
-  top:160vh;
-  font-family: century gothic, sans-serif;
+  top:180vh;
+  font-family: Quicksand, sans-serif;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -177,13 +221,15 @@
   padding-left:5%;
 }
 
+
+
 .title1
 {
-  font-size:1em;
+  font-size:100%;
 }
 .subtitle
 {
-  font-size: 0.6em;
+  font-size: 80%;
   color:rgba(0, 0, 0, 0.65);
 }
 
@@ -191,29 +237,32 @@
 
 .shop
 {
-  flex:0 0 25%
+  flex:0 0 25%;
 }
 
 .template
 {
-    flex:0 0 25%
+    flex:0 0 25%;
 }
 
 .newsletter
 {
-    flex:0 0 25%
-
+    flex:0 0 25%;
+}
+.line
+{
+  line-height: 140%;
 }
 
 .address
 {
-    flex:0 0 25%
+    flex:0 0 25%;
 }
 
 .email
 { width: 62%;
-  font-family: century gothic ,sans-serif;
-  font-size: 0.6em;
+  font-family: quicksand ,sans-serif;
+  font-size: 60%;
   color:rgba(0, 0, 0, 0.5 );
 }
 
