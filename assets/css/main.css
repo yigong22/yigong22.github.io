@@ -6,7 +6,6 @@
 
 
 
-
 /* Start here */
 
 .navbar
@@ -62,46 +61,45 @@
 
 
 
-.container
+
+
+
+
+/*Banner*/
+.bannercontainer
 {
-  position: absolute;
-  top:5vh;
-  left:0;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 
-.poster{
+.banner
+{
  flex:0 0 100%;
+ margin-bottom:-3px;
+ object-fit: cover;
 }
 
 
 
-.containerpicture
+.bannerimg
 {
   max-width:100%;
 }
 
-.posterinfor
-{
-  font-family: quicksand, sans-serif;
-  font-weight: lighter;
-  font-size: 160%;
-  color: white;
-  position: relative;
-  top:-20vh;
-  right:20vw;
-  text-align: center;
-  line-height: 130%;
-
-}
-
-.shopicon{
-  max-width: 40%;
-}
 
 
+/*Banner*/
+
+
+
+
+
+
+
+
+
+/*porcelain paper fabric samples*/
 
 .example
 {
@@ -109,9 +107,16 @@
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
-  position: absolute;
-  top: 72vh;
+
 }
+
+.try
+{
+   object-fit: cover;
+}
+
+
+
 
 .porcelain
 {
@@ -151,12 +156,12 @@
 {
   width: 100vw;
   height: 26vh;
-  background-color: #a71a2a;
-  position: absolute;
-  top:139vh;
+  background-color: #861925;
+
   margin-bottom: 1vh;
   font-family: quicksand, sans-serif;
   font-size: 100%;
+  color: rgba(249, 249, 249, 0.9);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -203,8 +208,6 @@
 {
   width: 100vw;
   height: 15vh;
-  position: absolute;
-  top:170vh;
   font-family: Quicksand, sans-serif;
   display: flex;
   flex-wrap: wrap;
