@@ -42,7 +42,6 @@
 .socialmediaicons img
 {
   max-width: 20px;
-
 }
 
 .socialmediaicons
@@ -50,11 +49,8 @@
   position: fixed;
   top: 18px;
   right:3%;
-
 }
 
-
-/*body css*/
 
 
 
@@ -80,8 +76,6 @@
  object-fit: cover;
 }
 
-
-
 .bannerimg
 {
   max-width:100%;
@@ -89,7 +83,6 @@
 
 
 
-/*Banner*/
 
 
 
@@ -101,42 +94,67 @@
 
 /*porcelain paper fabric samples*/
 
-.example
-{
+.example {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
-
+  background-color: black;
+  padding-top: 3vh;
 }
 
-.try
+.stamp {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 20%;
+  transition: 1s ease-out;
+}
+
+.stamp:hover {
+  opacity: 1;
+}
+
+.sample1
 {
-   object-fit: cover;
+
 }
 
+.sample2
+{
 
+}
 
+.sample3
+{
+
+}
 
 .porcelain
 {
-  flex:0 0 33.333%;
+  flex: 0 0 33.333%;
+  position: relative;
 }
 
 .fabric
 {
-  flex:0 0 33.333%;
+  flex: 0 0 33.333%;
+  position: relative;
 }
 
 .paper
 {
-  flex:0 0 33.333%;
+  flex: 0 0 33.333%;
+  position: relative;
 }
 
 .example img
 {
-  max-width: 100%;
+  max-width: 90%;
 }
+
+
 
 
 
@@ -202,6 +220,15 @@
 }
 
 
+
+
+
+
+
+
+
+
+
 /*information section*/
 
 .infor
@@ -218,8 +245,6 @@
   padding-left:5%;
 }
 
-
-
 .title1
 {
   font-size:100%;
@@ -229,7 +254,6 @@
   font-size: 80%;
   color:rgba(0, 0, 0, 0.65);
 }
-
 
 
 .shop
@@ -262,6 +286,8 @@
   font-size: 60%;
   color:rgba(0, 0, 0, 0.5 );
 }
+
+
 
 
 
