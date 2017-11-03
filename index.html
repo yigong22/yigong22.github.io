@@ -9,10 +9,17 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/slideshow.css">
 
     <!-- Jquery start here! -->
+
+    <script type="text/javascript" src="assets/js/slidershow.js" charset="utf-8"></script>
     <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
     <script src="assets/js/main.js" charset="utf-8"></script>
+
+    <style media="all">
+
+    </style>
 
   </head>
   <body>
@@ -25,44 +32,114 @@
     QR LAB
   </div>
 
-  <div class="cart">
-    CART
+  <div class="uploadbutton">
+    &nbsp;Upload&nbsp;
   </div>
 
   <div class="socialmediaicons">
-    <img src="assets/images/icons/facebook.png" alt="">
-    <img src="assets/images/icons/twitter.png" alt="">
-    <img src="assets/images/icons/ins.png" alt="">
+    <img class="flex10" src="assets/images/icons/facebook.png" alt="">
+    <img class="flex10" src="assets/images/icons/twitter.png" alt="">
+    <img class="flex10" src="assets/images/icons/ins.png" alt="">
   </div>
 
 </div>
 <!-- Menubar end -->
 
 
-<!-- Body Start -->
 
 
 
 
 
-
-<div class="bannercontainer">
-  <div class="banner">
-    <img class="bannerimg" src="assets/images/poster.jpg" alt="">
-  </div>
+<!--  slide -->
 
 
-
+<div class="slider-holder">
+    <span id="slider-image-1"></span>
+    <span id="slider-image-2"></span>
+    <span id="slider-image-3"></span>
+    <span id="slider-image-4"></span>
+    <div class="image-holder">
+        <img src="assets/images/poster.jpg" class="slider-image" />
+        <img src="assets/images/poster1.jpg" class="slider-image" />
+        <img src="assets/images/poster2.jpg" class="slider-image" />
+        <img src="assets/images/poster3.jpg" class="slider-image" />
+    </div>
+    <div class="button-holder">
+        <a href="#slider-image-1" class="slider-change"></a>
+        <a href="#slider-image-2" class="slider-change"></a>
+        <a href="#slider-image-3" class="slider-change"></a>
+        <a href="#slider-image-4" class="slider-change"></a>
+    </div>
 </div>
 
 
 
 
 
-<!-- examples -->
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- slide -->
+
+
+
+
+
+
+<!-- intro  -->
+<div class="intro">
+
+  <div class="upload">
+    <img class="processicon" src="assets/images/icons/upload.png" alt="">&nbsp;Step 1: Upload your QR code
+  </div>
+  <div class="choose">
+    <img class="processicon" src="assets/images/icons/setup.png" alt="">&nbsp;Step 2: Choose your object
+  </div>
+  <div class="setup">
+    <img class="processicon" src="assets/images/icons/choose.png" alt="">&nbsp;Step 3: choose your QR code template
+  </div>
+  <div class="delivery">
+    <img class="processicon" src="assets/images/icons/delivery.png" alt="">&nbsp;&nbsp;Step 4: Delivery Worldwide
+  </div>
+</div>
+
+
+
+
+
+
+<!-- template -->
+
+<!-- chhoosee -->
+<div class="qrcodetemplate">
+  <p class="qr1">Choose your object</p>
+  <img src="assets/images/icons/line.png" alt="">
+  <p  class="qr2">pick up you favourite material</p>
+</div>
+
+
+
+<!-- template -->
 
 <div class="example">
   <div class="porcelain">
@@ -77,6 +154,29 @@
     <img class="sample3" src="assets/images/sample3.png" alt="">
     <img class="stamp" src="assets/images/paperstamp.png" alt="">
   </div>
+
+</div>
+
+<div class="qrcodetemplate">
+  <p class="qr1">Choose your QR code template</p>
+  <img src="assets/images/icons/line.png" alt="">
+  <p  class="qr2">pick up you favourite QRcode template</p>
+</div>
+
+
+
+<!-- products -->
+
+<div class="productcontainer">
+  <div class="left">
+    <img class="product11" src="assets/images/product2.png" alt="">
+  </div>
+  <div class="middle">
+    <img class="product22" src="assets/images/product3.png" alt="">
+  </div>
+  <div class="right">
+    <img class="product33" src="assets/images/product1.png" alt="">
+  </div>
 </div>
 
 
@@ -86,28 +186,6 @@
 
 
 
-
-
-
-
-<!-- intro  -->
-<div class="intro">
-  <div class="generate">
-    <img class="processicon" src="assets/images/icons/generate.png" alt=""><br>Step 1: Generate <br>your QR code
-  </div>
-  <div class="upload">
-    <img class="processicon" src="assets/images/icons/upload.png" alt=""><br>Step 2: Upload <br>your QR code
-  </div>
-  <div class="choose">
-    <img class="processicon" src="assets/images/icons/choose.png" alt=""><br>Step 3: Choose <br>your template
-  </div>
-  <div class="setup">
-    <img class="processicon" src="assets/images/icons/setup.png" alt=""><br>Step 4: Set up <br>your QR code
-  </div>
-  <div class="delivery">
-    <img class="processicon" src="assets/images/icons/delivery.png" alt=""><br>Step 5: Delivery<br>Worldwide
-  </div>
-</div>
 
 
 
