@@ -1,0 +1,223 @@
+
+*
+{
+  box-sizing: border-box;
+}
+
+
+
+/* Start here */
+
+@media only screen and (max-width: 600px) {
+
+
+
+  .navbar {
+  width: 100vw;
+  height: 5vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  box-shadow: 2px 2px 3px #737373;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 0.8;
+}
+
+
+.title {
+  font-family: quicksand, sans-serif;
+  font-size: 120%;
+  flex: 0 0 80%;
+  margin-left: 1.5%;
+}
+
+
+.uploadbutton {
+  font-family: quicksand, sans-serif;
+  font-size: 90%;
+  border: 1px solid black;
+  border-radius: 3px;
+  flex: 0 0 15%;
+  text-align: center;
+  margin-right: 0;
+}
+
+
+.socialmediaicons {
+  display: none;
+}
+
+
+.slider-holder {
+  margin-top: 4vh;
+}
+
+
+
+
+.qr1 {
+  font-size: 120%;
+}
+
+.qr2 {
+
+  font-size: 90%;
+
+}
+
+
+
+
+
+/*information section*/
+
+.infor
+{
+  display: none;
+}
+
+
+
+
+
+
+/*intro*/
+
+.intro img
+{
+  max-width:12%;
+}
+
+.intro
+{
+  width: 100vw;
+  height: 15vh;
+  background-color: rgba(255, 255, 255, 1);
+  font-family: quicksand, sans-serif;
+  font-size:20%;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  z-index: 100;
+  position: relative;
+  padding-left: 1%;
+  letter-spacing: 0.5;
+  margin-left: 4%;
+
+}
+
+
+
+.upload
+{
+  flex:0 0 45%;
+}
+
+.choose
+{
+  flex:0 0 45%;
+}
+
+.setup
+{
+  flex:0 0 47%;
+}
+
+.delivery
+{
+  flex:0 0 45%;
+}
+
+
+.processicon
+{
+
+}
+
+
+.example {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  padding-left: 13%;
+
+}
+
+
+
+.stamp:hover {
+  opacity: 1;
+}
+
+
+
+.porcelain
+{
+  flex: 0 0 99%;
+  position: relative;
+  margin-left: 2%;
+
+}
+
+.fabric
+{
+  flex: 0 0 99%;
+  position: relative;
+
+}
+
+.paper
+{
+  flex: 0 0 99%;
+  position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Css*/

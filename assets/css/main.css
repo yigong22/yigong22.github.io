@@ -87,7 +87,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  max-width: 20%;
   transition: 1s ease-out;
   cursor: pointer;
 }
