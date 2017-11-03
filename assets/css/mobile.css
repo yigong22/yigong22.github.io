@@ -16,8 +16,8 @@
   width: 100vw;
   height: 5vh;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   background-color: white;
   box-shadow: 2px 2px 3px #737373;
   z-index: 100;
@@ -95,10 +95,10 @@
 .intro
 {
   width: 100vw;
-  height: 15vh;
+  height: 8vh;
   background-color: rgba(255, 255, 255, 1);
   font-family: quicksand, sans-serif;
-  font-size:20%;
+  font-size:70%;
   font-weight: bolder;
   color: rgba(0, 0, 0, 0.8);
   display: flex;
@@ -106,12 +106,10 @@
   align-items: flex-start;
   justify-content: flex-start;
   text-align: left;
-  z-index: 100;
   position: relative;
   padding-left: 1%;
   letter-spacing: 0.5;
   margin-left: 4%;
-
 }
 
 
