@@ -198,14 +198,20 @@
   margin-top:8vh;
   text-align: center;
   margin-bottom: 1%;
+
 }
 
 .qr1
 {
+
   font-family: quicksand,sans-serif;
   font-weight: bolder;
   font-size: 160%;
   margin-bottom: 1.5vh;
+  background-color: rgb(241, 115, 12);
+  margin-left:17%;
+  margin-right: 17%;
+  border-radius: 4px;
 }
 .qr2
 {
@@ -217,9 +223,34 @@
 
 
 
+.qrcodetemplate1
+{
+  margin-top:8vh;
+  text-align: center;
+  margin-bottom: 1%;
+
+}
 
 
+.qr11
+{
+  font-family: quicksand,sans-serif;
+  font-weight: bolder;
+  font-size: 160%;
+  margin-bottom: 1.5vh;
+  background-color: rgba(232, 16, 49, 1);
+  margin-left:17%;
+  margin-right: 17%;
+  border-radius: 5px;
+}
+.qr22
+{
+  font-family: quicksand,sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  margin-top: 1vh;
 
+}
 
 
 
