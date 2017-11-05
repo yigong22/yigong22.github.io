@@ -25,7 +25,7 @@
 
 .title
 {
-  font-family: quicksand, sans-serif;
+  font-family: 'quicksand', sans-serif;
   font-size:170%;
   flex:0 0 79%;
   margin-left: 1.5%;
@@ -33,7 +33,7 @@
 
 .uploadbutton
 {
-  font-family: quicksand, sans-serif;
+  font-family: 'quicksand', sans-serif;
   font-size:110%;
   border: 1px solid black;
   border-radius: 3px;
@@ -178,6 +178,21 @@
 
 /*qrcodetemplate*/
 
+
+
+
+
+.slidertitle{
+
+  color:black;
+  font-family: 'Anton', sans-serif;
+  font-size: 200%;
+
+}
+
+
+
+
 .qrcodetemplate
 {
   margin-top:8vh;
@@ -238,12 +253,12 @@
   align-items: flex-start;
   justify-content: space-around;
   text-align: left;
-  margin-top:20vh;
+
   padding-top: 1%;
   padding-left:17%;
   padding-right:5%;
-  margin-bottom: 20vh;
-  background-color: rgba(163, 40, 13, 0.035);
+  margin-bottom: 17vh;
+
 }
 
 .title1
@@ -307,7 +322,7 @@
 {
   width: 100vw;
   height: 6vh;
-  background-color: rgba(255, 255, 255, 0.7);
+
   font-family: quicksand, sans-serif;
   font-size: 90%;
   font-weight: 400;
@@ -322,6 +337,7 @@
   bottom: 0;
   left: 0;
   z-index: 100;
+  background-color: rgba(255, 255, 255, 0.65)
 }
 
 

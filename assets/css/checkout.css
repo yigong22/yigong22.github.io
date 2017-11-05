@@ -1,0 +1,86 @@
+
+*
+{
+  box-sizing: border-box;
+}
+
+
+
+/* Start here */
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.checkout
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 6vh;
+}
+
+
+.purchase
+{ cursor: pointer;
+  background-color: rgb(241, 115, 12);
+  flex:0 0 50%;
+}
+
+.download
+{
+  cursor: pointer;
+  background-color: rgba(232, 16, 49, 1);
+  flex:0 0 50%;
+}
+
+
+.title2
+{
+  font-family:'Anton', sans-serif;
+  font-size: 180%;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.text2
+{
+  font-family: 'quicksand', sans-serif;
+  font-size: 100%;
+  margin-top: 1vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Css*/

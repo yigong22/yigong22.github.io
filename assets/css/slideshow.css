@@ -15,6 +15,7 @@
           height: auto;
           text-align: center;
           overflow: hidden;
+          position: relative;
       }
 
       .image-holder
@@ -76,12 +77,6 @@
 {
   max-width: 25%;
 }
-
-
-
-
-
-
 
 
 
