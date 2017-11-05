@@ -264,6 +264,38 @@
 
 
 
+/*icons*/
+.qriconcontainer img
+{
+  max-width: 50%;
+}
+
+
+.qriconcontainer
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.col1of5
+{
+  flex:0 0 30%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+
+.qriconimg
+{
+  border: 0px solid black;
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+
+
 
 
 

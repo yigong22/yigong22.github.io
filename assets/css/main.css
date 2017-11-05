@@ -27,7 +27,7 @@
 {
   font-family: quicksand, sans-serif;
   font-size:170%;
-  flex:0 0 77%;
+  flex:0 0 79%;
   margin-left: 1.5%;
 }
 
@@ -37,9 +37,9 @@
   font-size:110%;
   border: 1px solid black;
   border-radius: 3px;
-  flex:0 0 10%;
+  flex:0 0 7%;
   text-align: center;
-  margin-right: 1%;
+  margin-right: 2%;
 }
 
 .socialmediaicons img
@@ -87,7 +87,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  transition: 1s ease-out;
+  transition: 1s ease;
   cursor: pointer;
 }
 
@@ -184,36 +184,6 @@
 /*product*/
 
 
-.productcontainer
-{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color:rgb(162, 57, 39);
-}
-
-
-.left
-{
-  flex:0 0 32%;
-}
-
-.middle
-{
-  flex:0 0 32%;
-
-}
-
-.right
-{
-  flex:0 0 32%;
-}
-
-.productcontainer img
-{
-  max-width: 80%;
-}
-
 
 
 
@@ -226,16 +196,19 @@
 .infor
 {
   width: 100vw;
-  height: 15vh;
+  height: 22vh;
   font-family: Quicksand, sans-serif;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
   text-align: left;
-  margin-bottom: 8%;
-  margin-top:4%;
-  padding-left:5%;
+  margin-top:20vh;
+  padding-top: 1%;
+  padding-left:17%;
+  padding-right:5%;
+  margin-bottom: 20vh;
+  background-color: rgba(163, 40, 13, 0.035);
 }
 
 .title1
@@ -298,12 +271,12 @@
 .intro
 {
   width: 100vw;
-  height: 7vh;
+  height: 6vh;
   background-color: rgba(255, 255, 255, 0.7);
   font-family: quicksand, sans-serif;
   font-size: 90%;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.9);
   display: flex;
   flex-wrap: wrap;
   align-items: center;

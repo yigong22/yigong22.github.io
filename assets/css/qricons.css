@@ -1,0 +1,74 @@
+
+*
+{
+  box-sizing: border-box;
+}
+
+
+
+/* Start here */
+.qriconcontainer img
+{
+  max-width: 30%;
+}
+
+
+.qriconcontainer
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  padding-left: 20%;
+  margin-top:10vh;
+}
+
+
+.col1of5
+{
+  flex:0 0 15%;
+  margin: 1%;
+}
+
+
+.qriconimg
+{
+  border: 0px solid black;
+  border-radius: 4px;
+  padding: 3%;
+  transition: 0.2s ease;
+}
+
+
+
+
+.qriconimg:hover
+{
+  border: 4px solid rgba(232, 16, 49, 1);
+  border-radius: 4px;
+  padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Css*/
