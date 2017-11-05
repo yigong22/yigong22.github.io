@@ -11,6 +11,7 @@
 a{
   text-decoration: none;
   color: black;
+  transition: 1s ease;
 }
 
 
@@ -31,6 +32,7 @@ a{
 { cursor: pointer;
   background-color: rgb(241, 115, 12);
   flex:0 0 50%;
+  transition: 1s ease;
 }
 
 .download
@@ -38,6 +40,7 @@ a{
   cursor: pointer;
   background-color: rgba(232, 16, 49, 1);
   flex:0 0 50%;
+  transition: 1s ease;
 }
 
 
@@ -56,20 +59,15 @@ a{
   margin-top: 1vh;
 }
 
+.purchase:hover a{
+    color: white;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+.download:hover a{
+    color: white;
+}
 
 
 
