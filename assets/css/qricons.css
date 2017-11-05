@@ -28,14 +28,16 @@
 {
   flex:0 0 15%;
   margin: 1%;
+  margin-bottom: 3%;
 }
 
 
 .qriconimg
 {
+  cursor: pointer;
   border: 0px solid black;
   border-radius: 4px;
-  padding: 3%;
+  padding: 2%;
   transition: 0.2s ease;
 }
 
@@ -45,15 +47,19 @@
 .qriconimg:hover
 {
   border: 4px solid rgba(232, 16, 49, 1);
-  border-radius: 4px;
-  padding: 2%;
 }
 
 
+.lightbox
+{
+
+}
 
 
-
-
+.lightbox.active
+{
+  border: 4px solid rgba(232, 16, 49, 1);
+}
 
 
 
