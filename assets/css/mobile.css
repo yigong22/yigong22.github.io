@@ -398,6 +398,56 @@
 
 
 
+/*aboutus*/
+
+
+
+
+.articlecontainer
+{
+  margin-top: 10vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 20vh;
+}
+
+
+.articletitle
+{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 200%;
+}
+
+.article
+{
+  font-family: 'Quicksand',sans-serif;
+  font-size: 110%;
+  line-height: 140%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

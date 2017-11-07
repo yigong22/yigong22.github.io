@@ -1,0 +1,125 @@
+
+*
+{
+  box-sizing: border-box;
+}
+
+
+
+/* menu */
+
+
+
+.navbar
+{ width: 100vw;
+  height:5vh;
+  position: fixed;
+  top: 0px;
+  left:0px;
+  background-color: white;
+  box-shadow: 3px 3px 4px #737373;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 0.8;
+}
+
+.title
+{
+  font-family: 'quicksand', sans-serif;
+  font-size:170%;
+  flex:0 0 79%;
+  margin-left: 1.5%;
+}
+
+.uploadbutton
+{
+  font-family: 'quicksand', sans-serif;
+  font-size:110%;
+  border: 1px solid black;
+  border-radius: 3px;
+  flex:0 0 7%;
+  text-align: center;
+  margin-right: 2%;
+}
+
+.socialmediaicons img
+{
+  max-width: 16%;
+}
+
+.socialmediaicons
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex:0 0 10%;
+}
+
+.flex10
+{
+  flex:0 0 30%;
+}
+
+
+
+/*Start here about us*/
+
+
+
+
+
+
+
+.articlecontainer
+{
+  margin-top: 20vh;
+  padding-left: 25%;
+  padding-right: 25%;
+
+}
+
+
+.articletitle
+{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 200%;
+}
+
+.article
+{
+  font-family: 'Quicksand',sans-serif;
+  font-size: 110%;
+  line-height: 140%;
+}
+
+
+
+
+
+h2{
+  margin-top: 15%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Css*/
