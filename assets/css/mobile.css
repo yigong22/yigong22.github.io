@@ -363,6 +363,42 @@
 
 
 
+.purchase
+{ cursor: pointer;
+  background-color: rgb(241, 115, 12);
+  flex:0 0 50%;
+  transition: 1s ease;
+  padding:6%;
+
+}
+
+.download
+{
+  cursor: pointer;
+  background-color: rgba(232, 16, 49, 1);
+  flex:0 0 50%;
+  transition: 1s ease;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
