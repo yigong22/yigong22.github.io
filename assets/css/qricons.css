@@ -20,7 +20,8 @@
   align-content: center;
   justify-content: flex-start;
   padding-left: 19.5%;
-  margin-top:10vh;
+  margin-top:8vh;
+  transition: 0.5s ease;
 }
 
 
@@ -50,19 +51,29 @@
 }
 
 
-.lightbox
+.box
 {
-
+  border: 4px solid rgba(232, 16, 49, 1);
 }
 
+.nobox
+{
+  border: 0px;
+}
 
+/*
 .lightbox.active
 {
   border: 4px solid rgba(232, 16, 49, 1);
 }
 
 
+.displayhover
+{
+  opacity: 1;
+}
 
+*/
 
 
 

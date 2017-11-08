@@ -70,8 +70,22 @@ a{
 }
 
 
+.show
+{
+  display: block
+}
 
+.hide
+{
+  display: none;
+}
 
+.link1{
+
+}
+
+.link1.show
+{display: block;}
 
 
 
