@@ -23,8 +23,8 @@ a{
   align-content: center;
   justify-content: space-around;
   text-align: center;
-  margin-top: 5vh;
-  margin-bottom: 6vh;
+  margin-top: 7vh;
+  margin-bottom: 4vh;
 }
 
 
@@ -43,6 +43,14 @@ a{
   transition: 1s ease;
 }
 
+
+.title22
+{
+  font-family:'Anton', sans-serif;
+  font-size: 180%;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
 
 .title2
 {

@@ -302,7 +302,13 @@
 
 
 /*downloading*/
-
+.title22
+{
+  font-family:'Anton', sans-serif;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 140%;
+}
 
 
 
@@ -311,7 +317,7 @@
   font-family:'Anton', sans-serif;
   margin-top: 2vh;
   margin-bottom: 2vh;
-
+  font-size: 140%;
 }
 
 .text2
